@@ -5,13 +5,13 @@
 class Novus < Formula
   desc "A local HTTPS proxy for a delightful developer experience."
   homepage "https://github.com/jozefcipa/novus"
-  version "0.0.6"
+  version "0.0.7"
   license "MIT"
   depends_on :macos
 
   on_intel do
-    url "https://github.com/jozefcipa/novus/releases/download/v0.0.6/novus_Darwin_x86_64.tar.gz", using: CurlDownloadStrategy
-    sha256 "633860746da9307c9265023797a9e4d8db69358b622bf43f061cb84c66a6217e"
+    url "https://github.com/jozefcipa/novus/releases/download/v0.0.7/novus_Darwin_x86_64.tar.gz", using: CurlDownloadStrategy
+    sha256 "db66fb8f0cd02ea1921d1eb15bcfcc313e37cd1329a02ac4f9239e96a3e390c8"
 
     def install
       bin.install "novus"
@@ -19,8 +19,8 @@ class Novus < Formula
     end
   end
   on_arm do
-    url "https://github.com/jozefcipa/novus/releases/download/v0.0.6/novus_Darwin_arm64.tar.gz", using: CurlDownloadStrategy
-    sha256 "c9919b0168bf1b122ce6d0948dca5d29a2b738eb1541da02d87712935c17261f"
+    url "https://github.com/jozefcipa/novus/releases/download/v0.0.7/novus_Darwin_arm64.tar.gz", using: CurlDownloadStrategy
+    sha256 "9a13e56a4e34cbe29503708384c134398e55755a78ab0b18043f9f29f8c35c02"
 
     def install
       bin.install "novus"
