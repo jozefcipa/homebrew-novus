@@ -11,7 +11,7 @@ class Novus < Formula
 
   on_intel do
     url "https://github.com/jozefcipa/novus/releases/download/v0.0.7/novus_Darwin_x86_64.tar.gz", using: CurlDownloadStrategy
-    sha256 "db66fb8f0cd02ea1921d1eb15bcfcc313e37cd1329a02ac4f9239e96a3e390c8"
+    sha256 "5aec9eff3667f67b6c42706d738949e2e68759ade5f44ace594e9426ba28ada7"
 
     def install
       bin.install "novus"
@@ -20,7 +20,7 @@ class Novus < Formula
   end
   on_arm do
     url "https://github.com/jozefcipa/novus/releases/download/v0.0.7/novus_Darwin_arm64.tar.gz", using: CurlDownloadStrategy
-    sha256 "9a13e56a4e34cbe29503708384c134398e55755a78ab0b18043f9f29f8c35c02"
+    sha256 "828c6603c436dd67cfa0b24c014ad7f58b01a30032f5307006a22f855a472bb8"
 
     def install
       bin.install "novus"
